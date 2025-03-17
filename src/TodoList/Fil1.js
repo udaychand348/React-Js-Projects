@@ -33,7 +33,7 @@ const Fil1 = () => {
         <h1> Welcome to Todo Management App</h1>
         
 <<<<<<< HEAD
-        <h2> It is cretaed by Udaychand </h2>
+        
 =======
         <h2> It is cretaed by Udaychand Choulla </h2>
 >>>>>>> branch1
