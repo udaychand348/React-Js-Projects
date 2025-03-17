@@ -32,7 +32,11 @@ const Fil1 = () => {
       <center>
         <h1> Welcome to Todo Management App</h1>
         
+<<<<<<< HEAD
         <h2> It is cretaed by Udaychand </h2>
+=======
+        <h2> It is cretaed by Udaychand Choulla </h2>
+>>>>>>> branch1
         <Display task={task} deletehandler={deletehandler} />
         <form onSubmit={shandler} >
             <input type="text" placeholder="Enter your activity" name="todo" value={todo} onChange={chandler} />&nbsp;&nbsp;
