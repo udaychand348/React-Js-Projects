@@ -31,6 +31,7 @@ const Fil1 = () => {
     <div>
       <center>
         <h1> Todo List Management Application</h1>
+        <h2> It is an Application used for to remember daily tasks</h2>
         <Display task={task} deletehandler={deletehandler} />
         <form onSubmit={shandler} >
             <input type="text" placeholder="Enter your activity" name="todo" value={todo} onChange={chandler} />&nbsp;&nbsp;
