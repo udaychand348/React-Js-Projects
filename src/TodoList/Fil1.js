@@ -30,7 +30,7 @@ const Fil1 = () => {
   return (
     <div>
       <center>
-        <h1> Welcome to Todo Management Application </h1>
+        <h1> Welcome to Todo Management App</h1>
         <Display task={task} deletehandler={deletehandler} />
         <form onSubmit={shandler} >
             <input type="text" placeholder="Enter your activity" name="todo" value={todo} onChange={chandler} />&nbsp;&nbsp;
